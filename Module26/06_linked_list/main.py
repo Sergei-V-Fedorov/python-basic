@@ -7,7 +7,7 @@ class Node:
         self.data = data
         self.next = reference
 
-    def __str__(self) -> str:
+    def __str__(self) -> str:  # use for test
         return str(self.data)
 
 
@@ -62,7 +62,7 @@ class SinglyLinkedList:
         result = self.__get_iterable()
         return str(result)
 
-    def __get_iterable(self) -> list:
+    def __get_iterable(self) -> list:  # it maybe used as iterator via iter()git
         return [self.get(index)
                 for index
                 in range(1, self.__length + 1)]
