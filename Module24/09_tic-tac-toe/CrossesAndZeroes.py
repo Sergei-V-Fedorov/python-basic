@@ -30,7 +30,7 @@ class Board:
             self.screen[row][column] = mark
         else:
             print("Эта ячейка занята")
-            
+
     # TODO добавить логику ответного хода компьютера
 
     def find_free(self):  # найти все свободные ячейки
