@@ -1,0 +1,5 @@
+OS info is 
+uname_result(system='Linux', node='acer', release='4.15.0-176-generic', version='#185-Ubuntu SMP Tue Mar 29 17:40:04 UTC 2022', machine='x86_64', processor='x86_64')
+
+Python version is 3.6.9 (default, Mar 15 2022, 13:55:28) 
+[GCC 8.4.0] ('64bit', 'ELF')
