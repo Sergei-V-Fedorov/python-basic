@@ -1,9 +1,9 @@
 class Property:
     """ Клаcc для описания имущества """
-    def __init__(self, worth=1000):
+    def __init__(self, worth: int = 1000) -> None:
         self.worth = worth
 
-    def calculate_tax(self, tax=10):
+    def calculate_tax(self, tax: int = 10) -> float:
         return self.worth * tax / 100
 
 
