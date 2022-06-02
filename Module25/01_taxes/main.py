@@ -1,4 +1,3 @@
-# calculation taxes for property
 import taxes
 
 total_money = int(input("Введите сумму доступных средств: "))
