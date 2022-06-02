@@ -8,18 +8,20 @@ class Property:
 
 
 class Apartment(Property):
-    def __init__(self, worth):
+
+    def __init__(self, worth: int) -> None:
         super().__init__(worth)
 
-    def calculate_tax(self, tax=0.1):
+    def calculate_tax(self, tax: float = 0.1) -> float:
         return self.worth * tax / 100
 
 
 class Car(Property):
-    def __init__(self, worth):
+
+    def __init__(self, worth: int) -> None:
         super().__init__(worth)
 
-    def calculate_tax(self, tax=0.5):
+    def calculate_tax(self, tax: float = 0.5) -> float:
         return self.worth * tax / 100
 
 
