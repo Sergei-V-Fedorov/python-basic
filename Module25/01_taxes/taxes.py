@@ -24,8 +24,9 @@ class Car(Property):
 
 
 class CountryHouse(Property):
+    """Класс расчета налога на загородный дом"""
     def __init__(self, worth):
         super().__init__(worth)
 
-    def calculate_tax(self, tax=0.2):
+    def calculate_tax(self, tax: float = 0.2) -> float:
         return self.worth * tax / 100
